@@ -1,0 +1,107 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Style */
+header {
+    background-color: #01060a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navbar Style */
+.navbar {
+    background-color: #363a3f;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffc107;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #ffc107;
+}
+
+/* Card for Login/Signup Form */
+.card {
+    margin: 30px auto;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Labels */
+.card label {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.card input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Button */
+.card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #060707;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background-color: #404447;
+}
+
+/* Switch between Login and Signup Links */
+.switch-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.switch-link a {
+    color: #04396e;
+    text-decoration: none;
+}
+
+.switch-link a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Style */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
